@@ -22,7 +22,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output-dir", default="output", help="Built site output directory")
     parser.add_argument(
         "--site-url",
-        default="https://alxcn.github.io",
+        default="https://alejandroucanpuc.github.io",
         help="Canonical site URL (e.g. https://example.com)",
     )
     parser.add_argument(

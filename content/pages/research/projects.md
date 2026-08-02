@@ -38,7 +38,7 @@ This page tracks active lines of research and related academic activities. The e
 <p>Use topological features to model and explain the erratic behavior of ENSO.</p>
 <ul>
 <li>Related teaching context: [Courses](/pages/courses/)</li>
-<li>Related repository activity: [Models_MA3001B](https://github.com/alxcn/Models_MA3001B)</li>
+<li>Related repository activity: [Models_MA3001B](https://github.com/alejandroucanpuc/Models_MA3001B)</li>
 <li>Related event activity: [III OMUM 2026](https://sites.google.com/cimat.mx/omum-2026/home)</li>
 </ul>
 </article>

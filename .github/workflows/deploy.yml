@@ -48,6 +48,10 @@ jobs:
       - name: Build site
         run: make publish
 
+      - name: Setup Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+
       - name: Lint markdown content
         run: npx --yes markdownlint-cli2 "content/**/*.md"
 

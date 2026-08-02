@@ -169,7 +169,7 @@ The overrides file supports curated ordering (`featured_repositories`, `featured
 
 Default GitHub username is configured in `Makefile`:
 
-- `GITHUB_USERNAME ?= alxcn`
+- `GITHUB_USERNAME ?= alejandroucanpuc`
 
 To use a different username for one run:
 
@@ -246,8 +246,8 @@ On push to `main`, the workflow builds and deploys automatically.
 
 Canonical URL strategy:
 
-- Default production canonical URL is set for GitHub Pages project sites:
-	- `https://alxcn.github.io/alejandroucanpuc`
+- Default production canonical URL is set for GitHub Pages user sites:
+	- `https://alejandroucanpuc.github.io`
 - You can override canonical URL with an environment variable:
 	- local build: `make publish SITE_CANONICAL_URL=https://your-domain.example`
 	- CI build: set repository variable `SITE_CANONICAL_URL`

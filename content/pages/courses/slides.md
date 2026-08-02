@@ -15,13 +15,13 @@ This page hosts course slide decks and external course material integrated into 
 
 ## LaTeX Hands-On webcourse
 
-[Open LaTeX Hands-On in a new tab](https://alxcn.github.io/Latex-Hands-On/)
+[Open LaTeX Hands-On in a new tab](https://alejandroucanpuc.github.io/Latex-Hands-On/)
 
 If the embedded view does not load in your browser, use the direct link above.
 
 <div class="ds-media-embed">
   <iframe
-    src="https://alxcn.github.io/Latex-Hands-On/"
+    src="https://alejandroucanpuc.github.io/Latex-Hands-On/"
     title="LaTeX Hands-On webcourse"
     class="ds-iframe-course"
     loading="lazy"

@@ -1,5 +1,5 @@
 {
-  "github_username": "alxcn",
+  "github_username": "alejandroucanpuc",
   "date": "2026-07-15",
   "description": "Curated public GitHub repositories, exploratory forks, and practical learning notes from ongoing technical work.",
   "featured_repositories": [
@@ -69,7 +69,7 @@
   "recent_repositories_limit": 5,
   "recent_repositories_include_forks": false,
   "exclude_repositories": [
-    "alxcn",
+    "alejandroucanpuc",
     "example"
   ],
   "learning_log": [

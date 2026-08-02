@@ -274,7 +274,7 @@ def _format_page(
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Sync repositories page from public GitHub API")
-    parser.add_argument("--username", default=os.environ.get("GITHUB_USERNAME", "alxcn"))
+    parser.add_argument("--username", default=os.environ.get("GITHUB_USERNAME", "alejandroucanpuc"))
     parser.add_argument("--token", default=os.environ.get("GITHUB_TOKEN"))
     parser.add_argument("--overrides", default=DEFAULT_OVERRIDES)
     parser.add_argument("--output", default=DEFAULT_OUTPUT)

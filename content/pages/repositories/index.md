@@ -6,32 +6,33 @@ Save_as: pages/repositories/index.html
 
 This page is generated automatically from the public GitHub API and manual curation overrides.
 
-GitHub profile: [github.com/alxcn](https://github.com/alxcn?tab=repositories)
+GitHub profile: [github.com/alejandroucanpuc](https://github.com/alejandroucanpuc?tab=repositories)
 
 ## Featured public repositories
 
-* **[Latex-Hands-On](https://github.com/alxcn/Latex-Hands-On)** (HTML): webcourse material for getting started with LaTeX.
-* **[IntroTDA](https://github.com/alxcn/IntroTDA)** (Jupyter Notebook): introductory notebooks for topological data analysis algorithms.
-* **[MA2007B](https://github.com/alxcn/MA2007B)** (Jupyter Notebook): course notebooks for topological data analysis.
-* **[Models_MA3001B](https://github.com/alxcn/Models_MA3001B)** (Jupyter Notebook): modeling course content and support materials.
-* **[TDANotes](https://github.com/alxcn/TDANotes)** (TeX): lecture notes for MA2007B.
-* **[ComplexHyperbolicHausdorffDimension](https://github.com/alxcn/ComplexHyperbolicHausdorffDimension)** (Python): numerical approximation experiments for Hausdorff dimension in complex hyperbolic settings.
-* **[DMRVSlides](https://github.com/alxcn/DMRVSlides)** (JavaScript): seminar slides about Deligne-Mostow representation varieties.
-* **[MetodoNewtonSlides](https://github.com/alxcn/MetodoNewtonSlides)** (JavaScript): short instructional slides on Newton's method.
-* **[MA1002B](https://github.com/alxcn/MA1002B)** (HTML): auxiliary material for differential equations modeling coursework.
-* **[alejandroucanpuc](https://github.com/alxcn/alejandroucanpuc)**: source code of this website.
+* **[Latex-Hands-On](https://github.com/alejandroucanpuc/Latex-Hands-On)** (HTML): webcourse material for getting started with LaTeX.
+* **[IntroTDA](https://github.com/alejandroucanpuc/IntroTDA)** (Jupyter Notebook): introductory notebooks for topological data analysis algorithms.
+* **[MA2007B](https://github.com/alejandroucanpuc/MA2007B)** (Jupyter Notebook): course notebooks for topological data analysis.
+* **[Models_MA3001B](https://github.com/alejandroucanpuc/Models_MA3001B)** (Jupyter Notebook): modeling course content and support materials.
+* **[TDANotes](https://github.com/alejandroucanpuc/TDANotes)** (TeX): lecture notes for MA2007B.
+* **[ComplexHyperbolicHausdorffDimension](https://github.com/alejandroucanpuc/ComplexHyperbolicHausdorffDimension)** (Python): numerical approximation experiments for Hausdorff dimension in complex hyperbolic settings.
+* **[DMRVSlides](https://github.com/alejandroucanpuc/DMRVSlides)** (JavaScript): seminar slides about Deligne-Mostow representation varieties.
+* **[MetodoNewtonSlides](https://github.com/alejandroucanpuc/MetodoNewtonSlides)** (JavaScript): short instructional slides on Newton's method.
+* **[MA1002B](https://github.com/alejandroucanpuc/MA1002B)** (HTML): auxiliary material for differential equations modeling coursework.
 
 ## Public forks used for exploration
 
-* **[qgss-2026](https://github.com/alxcn/qgss-2026)** (Jupyter Notebook): fork for quantum summer school material exploration.
-* **[micai2025-langgraph-tutorial](https://github.com/alxcn/micai2025-langgraph-tutorial)**: forked tutorial on multi-agent workflows with LangGraph.
-* **[LinearAlgebra](https://github.com/alxcn/LinearAlgebra)** (JavaScript): reveal-hugo based presentation framework fork.
-* **[manim](https://github.com/alxcn/manim)**: fork of the animation engine for mathematical visualization workflows.
-* **[hugo-theme-stack](https://github.com/alxcn/hugo-theme-stack)** (HTML): theme reference and experimentation fork.
+* **[qgss-2026](https://github.com/alejandroucanpuc/qgss-2026)** (Jupyter Notebook): fork for quantum summer school material exploration.
+* **[micai2025-langgraph-tutorial](https://github.com/alejandroucanpuc/micai2025-langgraph-tutorial)**: forked tutorial on multi-agent workflows with LangGraph.
+* **[LinearAlgebra](https://github.com/alejandroucanpuc/LinearAlgebra)** (JavaScript): reveal-hugo based presentation framework fork.
+* **[manim](https://github.com/alejandroucanpuc/manim)**: fork of the animation engine for mathematical visualization workflows.
+* **[hugo-theme-stack](https://github.com/alejandroucanpuc/hugo-theme-stack)** (HTML): theme reference and experimentation fork.
 
 ## Recently updated repositories
 
-* **[CADI_DeepLearningTensorFlow2](https://github.com/alxcn/CADI_DeepLearningTensorFlow2)**: No description provided yet.
+* **[alejandroucanpuc.github.io](https://github.com/alejandroucanpuc/alejandroucanpuc.github.io)** (HTML): No description provided yet.
+* **[CADI_DeepLearningTensorFlow2](https://github.com/alejandroucanpuc/CADI_DeepLearningTensorFlow2)**: No description provided yet.
+* **[alxcn](https://github.com/alejandroucanpuc/alxcn)**: Config files for my GitHub profile.
 
 ## Learning log
 
@@ -57,3 +58,7 @@ GitHub profile: [github.com/alxcn](https://github.com/alxcn?tab=repositories)
 <li>[Undergraduate Seminar sessions](/pages/seminar/)</li>
 </ul>
 </div>
+
+### Curation warnings
+
+* The following curated repositories were not found in the public profile and were omitted: alejandroucanpuc
