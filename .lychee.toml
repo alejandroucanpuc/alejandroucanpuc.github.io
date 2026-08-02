@@ -11,5 +11,6 @@ exclude = [
   "https://instagram.com/i.rracionalx",
   "https://www.instagram.com/i.rracionalx",
   "http://getpelican.com/",
-  "https://alejandroucanpuc.github.io/theme/css/main.css"
+  "https://alejandroucanpuc.github.io/theme/css/main.css",
+  "https://alejandroucanpuc.github.io/es/", "https://alejandroucanpuc.github.io/feeds/all.atom.xml", "https://alejandroucanpuc.github.io/feeds/all.atom.xml",
 ]
