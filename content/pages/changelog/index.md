@@ -9,6 +9,7 @@ This changelog tracks versioned updates to the site.
 RSS updates feed (optional): [/feeds/updates.xml](/feeds/updates.xml)
 
 ## v1.4.0 - 2026-07-18
+
 {#v140}
 
 - Hardened production canonical URL defaults for GitHub Pages project-site deployments.
@@ -18,6 +19,7 @@ RSS updates feed (optional): [/feeds/updates.xml](/feeds/updates.xml)
 - Added fallback behavior to GitHub sync: retain existing generated repositories page if external API sync fails.
 
 ## v1.3.0 - 2026-07-16
+
 {#v130}
 
 - Added a custom 404 page for GitHub Pages and direct deep links.
