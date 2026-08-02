@@ -8,4 +8,6 @@ timeout = 20
 root_dir = "output"
 
 # External hosts that occasionally throttle automation can be excluded here if needed.
-exclude = []
+exclude = [
+	"https://doi.org/10.1080/10586458.2022.2093802",
+]
