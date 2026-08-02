@@ -5,10 +5,10 @@ URL:
 Save_as: index.html
 
 <figure class="ds-figure-center">
-	<picture>
-		<source type="image/webp" srcset="/images/site/avatar-260.webp 195w, /images/site/avatar-520.webp 390w" sizes="(max-width: 600px) 195px, 260px" />
-		<img src="/images/site/avatar-260.jpg" srcset="/images/site/avatar-260.jpg 195w, /images/site/avatar-520.jpg 390w" sizes="(max-width: 600px) 195px, 260px" width="195" height="260" alt="Alejandro Ucan-Puc" class="ds-img-avatar" />
-	</picture>
+  <picture>
+    <source type="image/webp" srcset="/images/site/avatar-260.webp 195w, /images/site/avatar-520.webp 390w" sizes="(max-width: 600px) 195px, 260px" />
+    <img src="/images/site/avatar-260.jpg" srcset="/images/site/avatar-260.jpg 195w, /images/site/avatar-520.jpg 390w" sizes="(max-width: 600px) 195px, 260px" width="195" height="260" alt="Alejandro Ucan-Puc" class="ds-img-avatar" />
+  </picture>
 </figure>
 
 I am **Alejandro Ucan-Puc**, a full-time professor at Instituto Tecnológico y de Estudios Superiores de Monterrey (Campus Monterrey), Office A7-222.
