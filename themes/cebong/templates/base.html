@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+{% set html_lang = DEFAULT_LANG if DEFAULT_LANG else 'en' %}
+{% if article and article.lang %}
+        {% set html_lang = article.lang %}
+{% elif page and page.lang %}
+        {% set html_lang = page.lang %}
+{% endif %}
+<html lang="{{ html_lang }}">
+<head>
+        {% set seo_title = SITENAME %}
+        {% if article %}
+                {% set seo_title = article.title|striptags %}
+        {% elif page %}
+                {% set seo_title = page.title|striptags %}
+        {% elif category %}
+                {% set seo_title = SITENAME ~ ' - ' ~ category %}
+        {% elif tag %}
+                {% set seo_title = SITENAME ~ ' - ' ~ tag %}
+        {% elif author %}
+                {% set seo_title = SITENAME ~ ' - ' ~ author %}
+        {% endif %}
+
+        {% set seo_description = SITE_DESCRIPTION if SITE_DESCRIPTION else SITESUBTITLE %}
+        {% if article and article.description %}
+                {% set seo_description = article.description|striptags %}
+        {% elif article and article.summary %}
+                {% set seo_description = article.summary|striptags %}
+        {% elif page and page.description %}
+                {% set seo_description = page.description|striptags %}
+        {% elif page and page.summary %}
+                {% set seo_description = page.summary|striptags %}
+        {% endif %}
+        {% set seo_description = seo_description|striptags|trim|truncate(180, True, '...') %}
+
+        {% set canonical_path = '' %}
+        {% if article %}
+                {% set canonical_path = article.url %}
+        {% elif page %}
+                {% set canonical_path = page.url %}
+        {% elif category and category.url is defined %}
+                {% set canonical_path = category.url %}
+        {% elif tag and tag.url is defined %}
+                {% set canonical_path = tag.url %}
+        {% elif author and author.url is defined %}
+                {% set canonical_path = author.url %}
+        {% elif output_file %}
+                {% set canonical_path = output_file %}
+        {% endif %}
+        {% set canonical_url = SITEURL ~ '/' %}
+        {% if canonical_path %}
+                {% set canonical_url = SITEURL ~ '/' ~ canonical_path %}
+        {% endif %}
+
+        {% set seo_image = SITEURL ~ '/apple-touch-icon.png' %}
+        {% if SEO_DEFAULT_IMAGE %}
+                {% set seo_image = SITEURL ~ SEO_DEFAULT_IMAGE %}
+        {% endif %}
+
+        <title>{% block title %}{{ seo_title }}{% endblock %}</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <meta name="description" content="{% block head_description %}{{ seo_description }}{% endblock head_description %}" />
+        <meta name="author" content="{% if article and article.author %}{{ article.author }}{% elif page and page.author %}{{ page.author }}{% else %}{{ AUTHOR }}{% endif %}" />
+        <meta name="copyright" content="{% if article and article.author %}{{ article.author }}{% elif page and page.author %}{{ page.author }}{% else %}{{ AUTHOR }}{% endif %}" />
+        <link rel="canonical" href="{{ canonical_url }}" />
+
+        <meta property="og:title" content="{{ seo_title }}" />
+        <meta property="og:description" content="{{ seo_description }}" />
+        <meta property="og:type" content="{% if article %}article{% else %}website{% endif %}" />
+        <meta property="og:url" content="{{ canonical_url }}" />
+        <meta property="og:site_name" content="{{ SITENAME }}" />
+        <meta property="og:image" content="{{ seo_image }}" />
+        <meta property="og:locale" content="{% if html_lang == 'es' %}es_MX{% else %}en_US{% endif %}" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="{{ seo_title }}" />
+        <meta name="twitter:description" content="{{ seo_description }}" />
+        <meta name="twitter:image" content="{{ seo_image }}" />
+        {% if TWITTER_USERNAME %}
+        <meta name="twitter:site" content="{{ TWITTER_USERNAME }}" />
+        {% endif %}
+
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "{% if SEO_ORG_NAME %}{{ SEO_ORG_NAME }}{% else %}{{ SITENAME }}{% endif %}",
+          "url": "{% if SEO_ORG_URL %}{{ SEO_ORG_URL }}{% else %}{{ SITEURL }}/{% endif %}",
+          "logo": "{{ seo_image }}"
+        }
+        </script>
+
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "{{ AUTHOR }}",
+          "url": "{{ SITEURL }}/",
+          "image": "{{ seo_image }}",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "{% if SEO_ORG_NAME %}{{ SEO_ORG_NAME }}{% else %}{{ SITENAME }}{% endif %}",
+            "url": "{% if SEO_ORG_URL %}{{ SEO_ORG_URL }}{% else %}{{ SITEURL }}/{% endif %}"
+          },
+          "sameAs": [{% if SOCIAL %}{% for name, link in SOCIAL %}"{{ link }}"{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}]{% if SEO_PERSON_EMAIL %},
+          "email": "{{ SEO_PERSON_EMAIL }}"{% endif %}{% if SEO_PERSON_DISCORD %},
+          "identifier": "Discord: {{ SEO_PERSON_DISCORD }}"{% endif %}
+        }
+        </script>
+
+        {% block meta_tags_in_head %}
+        {% endblock meta_tags_in_head %}
+        <meta name="robots" content="{% block robots %}index,follow{% endblock %}">
+
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
+        {% if FEED_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+        {% endif %}
+        {% if FEED_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+        {% endif %}
+
+        <!--[if IE]>
+                <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="{{ SITEURL }}/css/ie.css"/>
+                <script src="{{ SITEURL }}/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="{{ SITEURL }}/css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+<a class="skip-link" href="#content">Skip to main content</a>
+{% include 'github.html' %}
+        <header id="banner" class="body">
+                <h1><a href="{{ SITEURL }}">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
+                {% if SITETAGLINE %}
+                <div id="tagline">{{SITETAGLINE}}</div>
+                {% endif %}
+                                {% if SITE_DOMAINS %}
+                                <ul class="profile-domains" aria-label="Research domains">
+                                {% for domain in SITE_DOMAINS %}
+                                        <li>{{ domain }}</li>
+                                {% endfor %}
+                                </ul>
+                                {% endif %}
+                                <nav aria-label="Primary navigation">
+                {% for title, link in MENUITEMS %}
+                    <a href="{{ link }}">{{ title }}</a>&nbsp;
+                {% endfor %}
+                {% if DISPLAY_PAGES_ON_MENU %}
+                {% for page in pages %}
+                    <a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>&nbsp;
+                {% endfor %}
+                {% endif %}
+                {% for cat, null in categories %}
+                    <a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a>&nbsp;
+                {% endfor %}
+                </nav>
+        </header><!-- /#banner -->
+        <main id="main-content" tabindex="-1">
+        {% block content %}
+        {% endblock %}
+        </main>
+        <section id="extras" class="body">
+        {% if LINKS %}
+                <div class="blogroll">
+                                                <h2>Site sections</h2>
+                        <ul>
+                        {% for name, link in LINKS %}
+                            <li><a href="{{ link }}">{{ name }}</a></li>
+                        {% endfor %}
+                        </ul>
+                </div><!-- /.blogroll -->
+        {% endif %}
+        {% if SOCIAL %}
+                <div class="social">
+                        <h2>Profiles</h2>
+                        <ul>
+                            {% if FEED_ATOM %}
+                            <li><a href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate">atom feed</a></li>
+                            {% endif %}
+                            {% if FEED_RSS %}
+                            <li><a href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate">rss feed</a></li>
+                            {% endif %}
+
+                        {% for name, link in SOCIAL %}
+                            <li><a href="{{ link }}">{{ name }}</a></li>
+                        {% endfor %}
+                        </ul>
+                </div><!-- /.social -->
+        {% endif %}
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                                                                                {{FOOTERTEXT}} Built with <a href="http://getpelican.com/">Pelican</a> and <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+        </footer><!-- /#contentinfo -->
+
+{% include 'analytics.html' %}
+{% include 'piwik.html' %}
+{% include 'disqus_script.html' %}
+<script>
+window.MathJax = {
+        tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true
+        },
+        options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+};
+</script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+</body>
+</html>

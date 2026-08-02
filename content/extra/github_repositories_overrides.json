@@ -1,0 +1,81 @@
+{
+  "github_username": "alxcn",
+  "date": "2026-07-15",
+  "description": "Curated public GitHub repositories, exploratory forks, and practical learning notes from ongoing technical work.",
+  "featured_repositories": [
+    {
+      "name": "Latex-Hands-On",
+      "note": "webcourse material for getting started with LaTeX."
+    },
+    {
+      "name": "IntroTDA",
+      "note": "introductory notebooks for topological data analysis algorithms."
+    },
+    {
+      "name": "MA2007B",
+      "note": "course notebooks for topological data analysis."
+    },
+    {
+      "name": "Models_MA3001B",
+      "note": "modeling course content and support materials."
+    },
+    {
+      "name": "TDANotes",
+      "note": "lecture notes for MA2007B."
+    },
+    {
+      "name": "ComplexHyperbolicHausdorffDimension",
+      "note": "numerical approximation experiments for Hausdorff dimension in complex hyperbolic settings."
+    },
+    {
+      "name": "DMRVSlides",
+      "note": "seminar slides about Deligne-Mostow representation varieties."
+    },
+    {
+      "name": "MetodoNewtonSlides",
+      "note": "short instructional slides on Newton's method."
+    },
+    {
+      "name": "MA1002B",
+      "note": "auxiliary material for differential equations modeling coursework."
+    },
+    {
+      "name": "alejandroucanpuc",
+      "note": "source code of this website."
+    }
+  ],
+  "featured_forks": [
+    {
+      "name": "qgss-2026",
+      "note": "fork for quantum summer school material exploration."
+    },
+    {
+      "name": "micai2025-langgraph-tutorial",
+      "note": "forked tutorial on multi-agent workflows with LangGraph."
+    },
+    {
+      "name": "LinearAlgebra",
+      "note": "reveal-hugo based presentation framework fork."
+    },
+    {
+      "name": "manim",
+      "note": "fork of the animation engine for mathematical visualization workflows."
+    },
+    {
+      "name": "hugo-theme-stack",
+      "note": "theme reference and experimentation fork."
+    }
+  ],
+  "recent_repositories_limit": 5,
+  "recent_repositories_include_forks": false,
+  "exclude_repositories": [
+    "alxcn",
+    "example"
+  ],
+  "learning_log": [
+    "Teaching repositories work best when each unit has a reproducible notebook and a short README with expected outcomes.",
+    "Slide repositories are easier to maintain when they include a single source of truth for assets and bibliography.",
+    "Research code is more reusable when notebooks are paired with lightweight scripts for data preparation and plotting.",
+    "Forked repositories are useful for prototyping, but production teaching/research material should move to independent repositories with focused documentation."
+  ]
+}

@@ -1,0 +1,82 @@
+name: Deploy Pelican site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pelican
+        run: |
+          python -m pip install --upgrade pip
+          pip install pelican markdown typogrify
+
+      - name: Configure canonical URL
+        run: |
+          if [ -n "${{ vars.SITE_CANONICAL_URL }}" ]; then
+            echo "SITE_CANONICAL_URL=${{ vars.SITE_CANONICAL_URL }}" >> "$GITHUB_ENV"
+          else
+            echo "SITE_CANONICAL_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> "$GITHUB_ENV"
+          fi
+
+      - name: Build site
+        run: make publish
+
+      - name: Lint markdown content
+        run: npx --yes markdownlint-cli2 "content/**/*.md"
+
+      - name: Validate generated HTML
+        run: npx --yes html-validate "output/**/*.html"
+
+      - name: Check broken links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: true
+          args: --config .lychee.toml output/**/*.html
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Enforce image budgets
+        run: python scripts/check_image_budgets.py output/images --max-file-kb 450 --max-total-kb 1600
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./output
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: quality
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

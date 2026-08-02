@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }}{% endblock %}
+{% block robots %}
+{% if page.robots %}{{ page.robots }}{% else %}index,follow{% endif %}
+{% endblock %}
+{% block meta_tags_in_head %}
+{% if page.tags and page.category %}
+        <meta name="keywords" content="{{ [page.tags|join(', '), page.category]|join(', ') }}" />
+{% endif %}
+{% if page.category %}
+        <meta name="category" content="{{ page.category|striptags }}" />
+{% endif %}
+{% endblock meta_tags_in_head %}
+
+{% block content %}
+<section id="content" class="body ds-page-shell">
+        <header class="ds-page-header">
+                <h1 class="entry-title">{{ page.title }}</h1>
+                {% if page.description %}
+                <p class="ds-page-lead">{{ page.description }}</p>
+                {% endif %}
+                {% if PDF_PROCESSOR %}<a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">get
+                the pdf</a>{% endif %}
+        </header>
+        <div class="ds-page-content">
+                {{ page.content }}
+        </div>
+</section>
+{% endblock %}

@@ -1,0 +1,11 @@
+# Lychee link-check config for generated Pelican output.
+verbose = true
+no_progress = true
+exclude_mail = true
+max_retries = 2
+retry_wait_time = 2
+timeout = 20
+root_dir = "output"
+
+# External hosts that occasionally throttle automation can be excluded here if needed.
+exclude = []
