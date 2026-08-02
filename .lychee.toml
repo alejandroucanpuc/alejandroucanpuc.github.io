@@ -9,4 +9,5 @@ exclude = [
   "https://doi.org/10.1080/10586458.2022.2093802",
   "https://instagram.com/i.rracionalx",
   "https://www.instagram.com/i.rracionalx",
+  "http://getpelican.com/",
 ]
