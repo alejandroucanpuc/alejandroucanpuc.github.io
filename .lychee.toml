@@ -1,4 +1,4 @@
-verbose = true
+verbose = "warn"
 no_progress = true
 include_mail = false
 max_retries = 2
