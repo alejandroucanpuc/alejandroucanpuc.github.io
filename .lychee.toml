@@ -1,4 +1,4 @@
-# Lychee link-check config for generated Pelican output.
+[default]
 verbose = true
 no_progress = true
 exclude_mail = true
@@ -6,8 +6,6 @@ max_retries = 2
 retry_wait_time = 2
 timeout = 20
 root_dir = "output"
-
-# External hosts that occasionally throttle automation can be excluded here if needed.
 exclude = [
-	"https://doi.org/10.1080/10586458.2022.2093802",
+  "https://doi.org/10.1080/10586458.2022.2093802",
 ]
