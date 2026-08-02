@@ -39,6 +39,8 @@ jobs:
         run: |
           if [ -n "${{ vars.SITE_CANONICAL_URL }}" ]; then
             echo "SITE_CANONICAL_URL=${{ vars.SITE_CANONICAL_URL }}" >> "$GITHUB_ENV"
+          elif [[ "${{ github.event.repository.name }}" == *.github.io ]]; then
+            echo "SITE_CANONICAL_URL=https://${{ github.event.repository.name }}" >> "$GITHUB_ENV"
           else
             echo "SITE_CANONICAL_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" >> "$GITHUB_ENV"
           fi

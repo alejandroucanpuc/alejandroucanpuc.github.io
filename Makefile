@@ -6,7 +6,7 @@ ORCID_SYNC_SCRIPT ?= scripts/sync_orcid.py
 GITHUB_USERNAME ?= alxcn
 GITHUB_SYNC_SCRIPT ?= scripts/sync_github.py
 SITE_META_SCRIPT ?= scripts/generate_site_meta.py
-SITE_CANONICAL_URL ?= https://alxcn.github.io/alejandroucanpuc
+SITE_CANONICAL_URL ?= https://alejandroucanpuc.github.io
 ENABLE_UPDATES_RSS ?= 1
 
 BASEDIR=$(CURDIR)
