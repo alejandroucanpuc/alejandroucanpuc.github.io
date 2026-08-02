@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alxcn.github.io/alejandroucanpuc/sitemap.xml
+Sitemap: https://alejandroucanpuc.github.io/sitemap.xml
