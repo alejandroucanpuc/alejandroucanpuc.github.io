@@ -247,12 +247,12 @@ On push to `main`, the workflow builds and deploys automatically.
 Canonical URL strategy:
 
 - Default production canonical URL is set for GitHub Pages project sites:
-	- `https://alxcn.github.io/alejandroucanpuc`
+  - `https://alxcn.github.io/alejandroucanpuc`
 - You can override canonical URL with an environment variable:
-	- local build: `make publish SITE_CANONICAL_URL=https://your-domain.example`
-	- CI build: set repository variable `SITE_CANONICAL_URL`
+  - local build: `make publish SITE_CANONICAL_URL=https://your-domain.example`
+  - CI build: set repository variable `SITE_CANONICAL_URL`
 - If `SITE_CANONICAL_URL` is not set in CI, workflow fallback is:
-	- `https://<owner>.github.io/<repo>`
+  - `https://<owner>.github.io/<repo>`
 - If you switch to a custom domain, set `SITE_CANONICAL_URL` to the full custom domain URL.
 
 ## 12. Quality gates in CI
