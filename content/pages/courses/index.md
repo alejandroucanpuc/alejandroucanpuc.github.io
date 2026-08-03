@@ -53,12 +53,12 @@ This page centralizes slides and complementary materials for courses taught at T
 ### Teaching snapshot (Semester Feb-Jun 2025)
 
 
-*   MA1034: Modelling Process using Linear Algebra. <br/><br/>
-*   MA1035: Engineering Modelling using Dynamical Systems
-*   MA2007B: Use of Geometry and Topology for Data Science. <br/><br/>
-*   MA3014: Quandles and SNN. <br/><br/>
-*   MA3014: Graphs, Codes and QPUs. <br/><br/>
-*   MA3014: Skills Recognition using TDA. <br/><br/>
+* MA1034: Modelling Process using Linear Algebra. <br/><br/>
+* MA1035: Engineering Modelling using Dynamical Systems. <br/><br/>
+* MA2007B: Use of Geometry and Topology for Data Science. <br/><br/>
+* MA3014: Quandles and SNN. <br/><br/>
+* MA3014: Graphs, Codes and QPUs. <br/><br/>
+* MA3014: Skills Recognition using TDA. <br/><br/>
 
 #### Period 1
 
