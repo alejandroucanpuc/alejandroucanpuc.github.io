@@ -26,4 +26,4 @@ Actualmente las entradas completas están publicadas en inglés:
 
 ## Archivo y redes
 
-* Instagram: [@i.rracionalx](https://instagram.com/i.rracionalx)
+* Instagram: [@i.rracionalx](https://www.instagram.com/i.rracionalx/)

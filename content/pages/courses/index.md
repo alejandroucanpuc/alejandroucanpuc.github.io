@@ -52,16 +52,41 @@ This page centralizes slides and complementary materials for courses taught at T
 
 ### Teaching snapshot (Semester Feb-Jun 2025)
 
-The following subjects appear in the public teaching page:
 
-* MA1028: Mathematical Foundations
-* MA1033: Análisis de Ecuaciones Diferenciales
-* MA1034 (English and Spanish): Process modeling using Linear Algebra
-* MA1035 (English and Spanish): Engineering Modelling using Dynamical Systems
-* MA2007B: Uso de Geometría y Topología para la Ciencia de Datos
-* MA3014: Estancia de Investigación
-* F1004B (Math Module)
-* F1095B (Math Module)
+*   MA1034: Modelling Process using Linear Algebra. <br/><br/>
+*   MA1035: Engineering Modelling using Dynamical Systems
+*   MA2007B: Use of Geometry and Topology for Data Science. <br/><br/>
+*   MA3014: Quandles and SNN. <br/><br/>
+*   MA3014: Graphs, Codes and QPUs. <br/><br/>
+*   MA3014: Skills Recognition using TDA. <br/><br/>
+
+#### Period 1
+|    Hours | Monday | Tuesday | Wednesday | Thursday | Friday |
+|-------------|-------|--------|-----------|--------|---------|
+|09:00 - 11:00|MA1034 - 101| | |MA1034 - 101| |
+|11:00 - 13:00| | | | | |
+|13:00 - 15:00| | | | | |
+|15:00 - 17:00| | | | | |
+|17:00 - 19:00| | | | | |
+
+#### Period 2
+|    Hours | Monday | Tuesday | Wednesday | Thursday | Friday |
+|-------------|-------|--------|-----------|--------|---------|
+|09:00 - 11:00|MA1035 - 501| | |MA1035-501| |
+|11:00 - 13:00| |MA1035 - 511| | |MA1035 - 511|
+|13:00 - 15:00| |MA2007B - 601| | |MA2007B - 601|
+|15:00 - 17:00| | | | | |
+|17:00 - 19:00| | | | | |
+
+#### Period 3
+
+|    Hours | Monday | Tuesday | Wednesday | Thursday | Friday |
+|-------------|-------|--------|-----------|--------|---------|
+|09:00 - 11:00|MA1035 - 501| | |MA1035-501| |
+|11:00 - 13:00| |MA1035 - 511| | |MA1035 - 511|
+|13:00 - 15:00| | | | | |
+|15:00 - 17:00| | | | | |
+|17:00 - 19:00| | | | | |
 
 ## Call to action
 

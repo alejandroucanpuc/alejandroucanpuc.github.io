@@ -48,7 +48,7 @@ This page tracks active lines of research and related academic activities. The e
 <p>Geometric and dynamical analysis of limit sets in projective settings.</p>
 <ul>
 <li>Related publication: [10.1007/s10711-022-00718-2](https://doi.org/10.1007/s10711-022-00718-2)</li>
-<li>Related publication: [10.1080/10586458.2022.2093802](https://doi.org/10.1080/10586458.2022.2093802)</li>
+<li>Related publication: [10.1080/10586458.2022.2093802](https://search.crossref.org/?q=10.1080%2F10586458.2022.2093802)</li>
 <li>Related event activity: [59 Congreso Nacional SMM 2026](https://smm.org.mx/congresos)</li>
 </ul>
 </article>

@@ -37,6 +37,6 @@ Each item below opens a full entry, so the blog works like a cascade of clickabl
 
 ## Archive and social
 
-* Instagram: [@i.rracionalx](https://instagram.com/i.rracionalx)
+* Instagram: [@i.rracionalx](https://www.instagram.com/i.rracionalx/)
 * Longer essays will live as individual entries so they can be shared and bookmarked directly.
 

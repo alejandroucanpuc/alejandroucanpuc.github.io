@@ -16,4 +16,4 @@ Usa esta página para colaboraciones, consultas de estudiantes y contacto genera
 * Correo institucional: [alejandro.ucan-puc@tec.mx](mailto:alejandro.ucan-puc@tec.mx)
 * Discord: alejandroucanpuc
 * ORCID: [0000-0002-0037-9394](https://orcid.org/0000-0002-0037-9394)
-* Instagram: [@i.rracionalx](https://instagram.com/i.rracionalx)
+* Instagram: [@i.rracionalx](https://www.instagram.com/i.rracionalx/)

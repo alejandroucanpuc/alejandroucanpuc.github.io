@@ -7,10 +7,13 @@ timeout = 20
 root_dir = "output"
 
 exclude = [
-  "https://doi.org/10.1080/10586458.2022.2093802",
+  "https://orcid.org/0000-0002-0037-9394",
   "https://instagram.com/i.rracionalx",
   "https://www.instagram.com/i.rracionalx",
-  "http://getpelican.com/",
+  "https://getpelican.com/",
+  "https://www.python.org/",
+  "https://alejandroucanpuc.github.io/",
+  "https://alejandroucanpuc.github.io/es/",
   "https://alejandroucanpuc.github.io/theme/css/main.css",
-  "https://alejandroucanpuc.github.io/es/", "https://alejandroucanpuc.github.io/feeds/all.atom.xml", "https://alejandroucanpuc.github.io/feeds/all.atom.xml",
+  "https://alejandroucanpuc.github.io/feeds/all.atom.xml",
 ]
