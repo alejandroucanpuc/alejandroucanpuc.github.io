@@ -56,19 +56,19 @@ This page centralizes slides and complementary materials for courses taught at T
 * MA1034: Modelling Process using Linear Algebra. <br/><br/>
 * MA1035: Engineering Modelling using Dynamical Systems. <br/><br/>
 * MA2007B: Use of Geometry and Topology for Data Science. <br/><br/>
-* MA3014: Quandles and SNN. <br/><br/>
-* MA3014: Graphs, Codes and QPUs. <br/><br/>
-* MA3014: Skills Recognition using TDA. <br/><br/>
+* MA3014 (TDLQ): Quandles and SNN. <br/><br/>
+* MA3014 (TQEP): Graphs, Codes and QPUs. <br/><br/>
+* MA3014 (TSR): Skills Recognition using TDA. <br/><br/>
 
 #### Period 1
 
-| Hours         | Monday       | Tuesday       | Wednesday | Thursday      | Friday        |
-|---------------|--------------|---------------|-----------|---------------|---------------|
-| 09:00 - 11:00 | MA1034 - 101 |               |           | MA1034 - 101  |               |
-| 11:00 - 13:00 |              |               |           |               |               |
-| 13:00 - 15:00 |              | MA2007B - 601 |           |               | MA2007B - 601 |
-| 15:00 - 17:00 |              |               |           |               |               |
-| 17:00 - 19:00 |              |               |           |               |               |
+| Hours         | Monday       | Tuesday       |  Wednesday  | Thursday      | Friday        |
+|---------------|--------------|---------------|-------------|---------------|---------------|
+| 09:00 - 11:00 | MA1034 - 101 | MA3014 - TQEP |             | MA1034 - 101  |               |
+| 11:00 - 13:00 |              |               |             |               |               |
+| 13:00 - 15:00 |              | MA2007B - 601 |MA3014 - TDLQ|               | MA2007B - 601 |
+| 15:00 - 17:00 |              |               |MA3014 - TDLQ|               |               |
+| 17:00 - 19:00 |              |               |             |               |               |
 
 #### Period 2
 
