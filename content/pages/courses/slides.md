@@ -8,9 +8,9 @@ This page hosts course slide decks and external course material integrated into 
 
 ## Current decks
 
-* MA1028: Mathematical Foundations (deck under development).
-* MA1033: Análisis de Ecuaciones Diferenciales (deck under development).
-* MA1034 / MA1035: Modeling sequence (starter deck below).
+
+* [MA1034: Process Modelling using Linear Algebra](https://alejandroucanpuc.github.io/MA1034/).
+
 * MA2007B: Geometría y Topología para Ciencia de Datos (deck under development).
 
 ## LaTeX Hands-On webcourse
