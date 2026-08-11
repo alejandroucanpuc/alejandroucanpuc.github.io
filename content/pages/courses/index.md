@@ -17,22 +17,19 @@ This page centralizes slides and complementary materials for courses taught at T
 
 ### English courses
 
-
 <article class="ds-domain-card ds-course-card">
-<span class="ds-card-meta">Course</span>
-<h3>MA1034Eng</h3>
-<p>[Process Modelling using Linear Algebra](https://alejandroucanpuc.github.io/MA1034/)</p>
+  <span class="ds-card-meta">Course</span>
+  <h3>MA1034Eng</h3>
+  <p><a href="https://alejandroucanpuc.github.io/MA1034/">Process Modelling using Linear Algebra</a></p>
 </article>
-
 
 ### Spanish courses
 
-
-<span class="ds-card-meta">Curso</span>
-<h3>MA2007B</h3>
-<p>[Uso de Geometría y Topología para la Ciencia de Datos](https://alejandroucanpuc.github.io/MA2007B/).</p>
+<article class="ds-domain-card ds-course-card">
+  <span class="ds-card-meta">Curso</span>
+  <h3>MA2007B</h3>
+  <p><a href="https://alejandroucanpuc.github.io/MA2007B/">Uso de Geometría y Topología para la Ciencia de Datos</a></p>
 </article>
-</div>
 
 ### Teaching snapshot (Semester Feb-Jun 2025)
 
