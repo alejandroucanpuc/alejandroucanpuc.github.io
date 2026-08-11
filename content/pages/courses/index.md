@@ -21,7 +21,7 @@ This page centralizes slides and complementary materials for courses taught at T
 <article class="ds-domain-card ds-course-card">
 <span class="ds-card-meta">Course</span>
 <h3>MA1034Eng</h3>
-<p>(Process Modelling using Linear Algebra.)[https://alejandroucanpuc.github.io/MA1034/]</p>
+<p>[Process Modelling using Linear Algebra](https://alejandroucanpuc.github.io/MA1034/)</p>
 </article>
 
 
@@ -30,7 +30,7 @@ This page centralizes slides and complementary materials for courses taught at T
 
 <span class="ds-card-meta">Curso</span>
 <h3>MA2007B</h3>
-<p>(Uso de Geometría y Topología para la Ciencia de Datos)[https://alejandroucanpuc.github.io/MA2007B/].</p>
+<p>[Uso de Geometría y Topología para la Ciencia de Datos](https://alejandroucanpuc.github.io/MA2007B/).</p>
 </article>
 </div>
 
