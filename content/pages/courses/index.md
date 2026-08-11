@@ -17,36 +17,20 @@ This page centralizes slides and complementary materials for courses taught at T
 
 ### English courses
 
-<div class="ds-card-grid">
-<article class="ds-domain-card ds-course-card">
-<span class="ds-card-meta">Course</span>
-<h3>MA1029Eng</h3>
-<p>Intermediate Mathematical Modeling.</p>
-</article>
+
 <article class="ds-domain-card ds-course-card">
 <span class="ds-card-meta">Course</span>
 <h3>MA1034Eng</h3>
-<p>Process Modelling using Linear Algebra.</p>
+<p>(Process Modelling using Linear Algebra.)[https://alejandroucanpuc.github.io/MA1034/]</p>
 </article>
-<article class="ds-domain-card ds-course-card">
-<span class="ds-card-meta">Course</span>
-<h3>F1015BEng</h3>
-<p>Thermodynamics Modeling in Engineering.</p>
-</article>
-</div>
+
 
 ### Spanish courses
 
-<div class="ds-card-grid">
-<article class="ds-domain-card ds-course-card">
-<span class="ds-card-meta">Curso</span>
-<h3>F1009</h3>
-<p>Análisis de Métodos Matemáticos para la Física.</p>
-</article>
-<article class="ds-domain-card ds-course-card">
+
 <span class="ds-card-meta">Curso</span>
 <h3>MA2007B</h3>
-<p>Uso de Geometría y Topología para la Ciencia de Datos.</p>
+<p>(Uso de Geometría y Topología para la Ciencia de Datos)[https://alejandroucanpuc.github.io/MA2007B/].</p>
 </article>
 </div>
 
