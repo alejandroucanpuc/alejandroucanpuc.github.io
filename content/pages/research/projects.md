@@ -5,6 +5,7 @@ URL: pages/research/projects/
 Save_as: pages/research/projects/index.html
 
 ## Intro
+
 This page tracks active lines of research and related academic activities. The emphasis is on projects with current implementation or collaboration momentum.
 
 ## Highlights

@@ -51,6 +51,7 @@ where $\operatorname{CV}(M,\rho)$ denotes a fixed normalization of complex volum
 Construct an explicit complex-valued quandle or symmetric quandle cocycle pairing whose evaluation on shadow colorings recovers both hyperbolic volume and the Chern–Simons contribution for hyperbolic knot complements and their Dehn fillings.
 
 ### Secondary Objectives
+
 1. **Connect Diagrammatic and Geometric Invariants:** Bridge diagrammatic knot invariants, quandle cohomology, ideal triangulations, and secondary characteristic classes of hyperbolic 3-manifolds.
 2. **Computable Realization:** Provide an explicit algebraic-topological realization of secondary classes that can be computed algorithmically from knot diagrams and triangulations.
 3. **Link with the Extended Bloch Group:** Connect quandle homology directly to the extended Bloch group $\mathcal{B}_{\mathrm{PSL}_2}(\mathbb{C})$ and the Cheeger–Chern–Simons regulator class.
@@ -62,9 +63,9 @@ Construct an explicit complex-valued quandle or symmetric quandle cocycle pairin
 ## Research Questions
 
 | ID | Question | Track Lead |
-|:---|:---------|:-----------|
-| **RQ1** | Which quandle structure best encodes boundary-parabolic $\operatorname{PSL}(2,\mathbb{C})$-representations: the parabolic quandle, a conjugation quandle, a homogeneous quandle, or a 4-fold symmetric quandle? | Student Track A |
-| **RQ2** | Can one define an explicit complex-valued quandle cocycle whose evaluation on a shadow coloring recovers both hyperbolic volume and the Chern–Simons contribution for cusped manifolds? | Student Track A |
+| :--- | :--------- | :----------- |
+| **RQ1** | Which quandle structure best encodes boundary-parabolic $\operatorname{PSL}(2,\mathbb{C})$-representations? | Joint |
+| **RQ2** | Can one define an explicit complex-valued quandle cocycle? | Tracks A & B |
 | **RQ3** | How does the quandle cocycle evaluation compare with the extended Bloch-group element and Cheeger–Chern–Simons regulator associated with a representation? | Tracks A & B |
 | **RQ4** | What are the precise period lattice $\Lambda$, orientation conventions, lifting choices, and branch cuts needed for a well-defined comparison theorem? | Joint (Phase 1) |
 | **RQ5** | Does the complex quandle invariant distinguish manifolds or representations with equal hyperbolic volume but distinct Chern–Simons data? | Joint |
@@ -117,6 +118,7 @@ The theoretical constructions are validated against reference calculations on cu
 ## Expected Outcomes and Publication Plan
 
 ### Ladder of Project Outcomes
+
 - **Minimum Viable Outcome (Month 8):** Verified, reproducible computational implementation of Inoue–Kabaya (2014) and Hatakenaka–Nosaka (2012) algorithms, alongside a complete convention concordance.
 - **Target Outcome (Month 24):** Explicit comparison theorems for both cusped and closed families, pinned-down period lattices, proof of discriminating power, and three submitted papers.
 - **Stretch Outcome:** General comparison theorem extending beyond named knot families without case-by-case re-proof, and analysis of non-geometric boundary-parabolic representations.
@@ -125,7 +127,7 @@ The theoretical constructions are validated against reference calculations on cu
 ### Publication Strategy
 
 | Paper | Lead Authors | Target Content | Candidate Venues |
-|:------|:-------------|:---------------|:-----------------|
+| :------ | :------------- | :--------------- | :----------------- |
 | **Paper 1** | Track A Lead | Explicit quandle-cocycle comparison theorem for complex volume of boundary-parabolic representations (twist-knot family) | *J. Knot Theory Ramifications*, *Topology Appl.* |
 | **Paper 2** | Track B Lead | Explicit 4-fold symmetric quandle Chern–Simons formula for closed manifolds and the Dehn-filling bridge | *J. Knot Theory Ramifications*, *Topology Appl.* |
 | **Paper 3** | Joint | Computational framework, benchmark dataset, high-precision dilogarithm tracking, and distinguishing-power results | *Experimental Mathematics*, *J. Appl. Comput. Topology* |
