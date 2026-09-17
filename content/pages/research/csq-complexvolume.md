@@ -17,14 +17,14 @@ Save_as: pages/research/csq-complexvolume/index.html
 <p>Suited for students with strong preparation in geometric topology, abstract algebra, and hyperbolic geometry.</p>
 </article>
 <article class="ds-domain-card">
-<span class="ds-card-meta">Timeline & Scope</span>
+<span class="ds-card-meta">Timeline &amp; Scope</span>
 <h3>12–24 Months</h3>
 <p>Two individually defensible thesis tracks converging on shared computational infrastructure and a joint paper.</p>
 </article>
 <article class="ds-domain-card">
 <span class="ds-card-meta">Supervision</span>
 <h3>Dr. Alejandro Ucan-Puc</h3>
-<p>Tecnológico de Monterrey, Campus Monterrey (Department of Mathematics & Data Science).</p>
+<p>Tecnológico de Monterrey, Campus Monterrey (Department of Mathematics &amp; Data Science).</p>
 </article>
 </div>
 </div>
@@ -145,8 +145,7 @@ Interested graduate students (prospective master's or PhD candidates) and resear
 Department of Science, Tecnológico de Monterrey (Campus Monterrey)<br>
 Office: A7-222</p>
 <ul class="ds-reference-list">
-<li>Email: <a href="mailto:alejandro.ucan-puc@tec.mx?subject=CSQ-ComplexVolume%20Project%20Inquiry">alejandro.ucan-puc@tec.mx</a></li
-<li>ORCID: <a href="https://orcid.org/0000-0002-0037-9394">0000-0002-0037-9394</a></li>
+<li>Email: <a href="mailto:alejandro.ucan-puc@tec.mx?subject=CSQ-ComplexVolume%20Project%20Inquiry">alejandro.ucan-puc@tec.mx</a></li><li> ORCID: <a href="https://orcid.org/0000-0002-0037-9394">0000-0002-0037-9394</a></li>
 <li>Institutional Profile: <a href="https://research.tec.mx/vivo-tec/display/PID_318207">research.tec.mx (PID 318207)</a></li>
 <li>General Contact Page: <a href="/pages/contact/">Contact Alejandro Ucan-Puc</a></li>
 </ul>
