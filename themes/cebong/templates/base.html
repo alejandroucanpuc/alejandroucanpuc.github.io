@@ -136,9 +136,11 @@
 <a class="skip-link" href="#content">Skip to main content</a>
 {% include 'github.html' %}
         <header id="banner" class="body">
-                <h1><a href="{{ SITEURL }}">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
+                <h1><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
                 {% if SITETAGLINE %}
-                <div id="tagline">{{SITETAGLINE}}</div>
+                <div id="tagline">{{ SITETAGLINE }}</div>
+                {% elif SITESUBTITLE %}
+                <div id="tagline">{{ SITESUBTITLE }}</div>
                 {% endif %}
                                 {% if SITE_DOMAINS %}
                                 <ul class="profile-domains" aria-label="Research domains">

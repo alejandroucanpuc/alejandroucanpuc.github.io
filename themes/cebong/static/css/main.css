@@ -204,7 +204,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 }
 
 	/* Banner */
-	#banner h1 {font-size: 51px; line-height: 0;}
+	#banner h1 {font-size: 51px; line-height: 1.2;}
 	#banner h1 a:link, #banner h1 a:visited {
         text-align:center;
 		color: #383732;
