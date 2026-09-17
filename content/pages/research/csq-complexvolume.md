@@ -48,6 +48,7 @@ where $\operatorname{CV}(M,\rho)$ denotes a fixed normalization of complex volum
 ## Aims and Objectives
 
 ### Primary Aim
+
 Construct an explicit complex-valued quandle or symmetric quandle cocycle pairing whose evaluation on shadow colorings recovers both hyperbolic volume and the Chern–Simons contribution for hyperbolic knot complements and their Dehn fillings.
 
 ### Secondary Objectives
