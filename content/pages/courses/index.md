@@ -12,7 +12,6 @@ This page centralizes slides and complementary materials for courses taught at T
 
 ### Core materials
 
-* [Slides](slides/): reveal.js decks and embedded webcourse resources.
 * [LaTeX Hands-On webcourse](slides/#latex-hands-on-webcourse): integrated external course page with direct access.
 
 ### English courses
@@ -23,6 +22,12 @@ This page centralizes slides and complementary materials for courses taught at T
   <p><a href="https://alejandroucanpuc.github.io/MA1034/">Process Modelling using Linear Algebra</a></p>
 </article>
 
+<article class="ds-domain-card ds-course-card">
+  <span class="ds-card-meta">Course</span>
+  <h3>MA1035Eng</h3>
+  <p><a href="https://alejandroucanpuc.github.io/MA1035/">Engineering Modelling using Dynamical Systems</a></p>
+</article>
+
 ### Spanish courses
 
 <article class="ds-domain-card ds-course-card">
@@ -30,6 +35,8 @@ This page centralizes slides and complementary materials for courses taught at T
   <h3>MA2007B</h3>
   <p><a href="https://alejandroucanpuc.github.io/MA2007B/">Uso de Geometría y Topología para la Ciencia de Datos</a></p>
 </article>
+
+
 
 ### Teaching snapshot (Semester Feb-Jun 2025)
 

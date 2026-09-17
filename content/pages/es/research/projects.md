@@ -8,6 +8,7 @@ Save_as: pages/es/research/projects/index.html
 
 ## Proyectos actuales
 
+* **Invariantes de Chern–Simons y Volumen Complejo vía Cohomología de Quandles (CSQ-ComplexVolume)**: reconstrucción de invariantes geométricos y secundarios para 3-variedades hiperbólicas y representaciones parabólicas en la frontera. [Detalles del proyecto en inglés](/pages/research/csq-complexvolume/)
 * **Optimización de detección de ondas gravitacionales**: uso de características topológicas para mejorar la detección de señales.
 * **Detección de texto generado por LLM en contextos académicos**: ingeniería de características topológicas para pipelines robustos.
 * **Predicción y análisis de ENSO**: descriptores topológicos para entender el comportamiento errático del ENSO.

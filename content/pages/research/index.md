@@ -10,6 +10,7 @@ My public record is connected to ORCID iD [0000-0002-0037-9394](https://orcid.or
 ## Research tree
 
 * [Projects](projects/): active collaborations, grants, and work in progress.
+  * Featured: [CSQ-ComplexVolume](csq-complexvolume/): Chern–Simons invariants and complex volume via quandle cohomology.
 * [Publications](publications/): selected papers and ORCID-linked records.
 
 ## At a glance
